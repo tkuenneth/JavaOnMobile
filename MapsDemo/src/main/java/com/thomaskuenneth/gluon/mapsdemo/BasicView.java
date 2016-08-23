@@ -6,19 +6,28 @@ import com.gluonhq.maps.MapPoint;
 
 import com.gluonhq.maps.MapView;
 
+/**
+ * Important: see local dependency in build.gradle to maps-1.0.1-SNAPSHOT.jar;
+ * needed to be able to update
+ *
+ * @author thomas
+ */
 public class BasicView extends View {
+
+    private static final MapPoint NUREMBERG = new MapPoint(49.45, 11.08);
+
+    private final FootStepsLayer layer;
 
     public BasicView(String name) {
         super(name);
-
-        MapView view = new MapView();
-
-        MapPoint mp = new MapPoint(49.45, 11.08);
-        view.setZoom(18f);
-        view.setCenter(mp);
-        view.
-
-        setCenter(view);
+        MapView mapView = new MapView();
+        mapView.setZoom(18f);
+        mapView.setCenter(NUREMBERG);
+        layer = new FootStepsLayer();
+        mapView.addLayer(layer);
+        setCenter(mapView);
+        
+        layer.addPoint(NUREMBERG);
     }
 
     @Override
