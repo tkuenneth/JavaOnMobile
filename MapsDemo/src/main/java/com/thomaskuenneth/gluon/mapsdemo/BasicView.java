@@ -5,6 +5,7 @@ import com.gluonhq.charm.glisten.mvc.View;
 import com.gluonhq.maps.MapPoint;
 
 import com.gluonhq.maps.MapView;
+import javafx.scene.input.MouseButton;
 
 /**
  * Important: see local dependency in build.gradle to maps-1.0.1-SNAPSHOT.jar;
@@ -26,8 +27,18 @@ public class BasicView extends View {
         layer = new FootStepsLayer();
         mapView.addLayer(layer);
         setCenter(mapView);
-        
+
         layer.addPoint(NUREMBERG);
+
+        setOnMouseClicked(event -> {
+            if ((event.getButton() == MouseButton.PRIMARY)
+                    && (event.getClickCount() == 2)) {
+                double x = event.getX();
+                double y = event.getY();
+                layer.addPoint(x, y);
+            }
+        });
+
     }
 
     @Override

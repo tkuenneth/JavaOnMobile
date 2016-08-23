@@ -5,6 +5,7 @@ import com.gluonhq.maps.MapPoint;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.geometry.Bounds;
 import javafx.geometry.Point2D;
 import javafx.scene.Node;
 import javafx.scene.image.Image;
@@ -28,15 +29,25 @@ public class FootStepsLayer extends MapLayer {
         markDirty();
     }
 
+    public void addPoint(double x, double y) {
+        System.out.println(x + ", " + y);
+        Bounds bounds = baseMap.getParent().getLayoutBounds();
+        baseMap.moveX(x - bounds.getWidth() / 2);
+        baseMap.moveY(y - bounds.getHeight() / 2);
+        addPoint(new MapPoint(baseMap.centerLat().get(),
+                baseMap.centerLon().get()));
+    }
+
     @Override
     protected void layoutLayer() {
-        points.stream().forEach((element) -> {
+        // Warning: suggested conversion to functional style crashed app on BlueStacks
+        for (Pair<MapPoint, Node> element : points) {
             MapPoint mapPoint = element.getKey();
             Node node = element.getValue();
             Point2D point = baseMap.getMapPoint(mapPoint.getLatitude(), mapPoint.getLongitude());
             node.setVisible(true);
             node.setTranslateX(point.getX());
             node.setTranslateY(point.getY());
-        });
+        }
     }
 }
