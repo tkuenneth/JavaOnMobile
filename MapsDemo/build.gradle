@@ -26,8 +26,7 @@ mainClassName = 'com.thomaskuenneth.gluon.mapsdemo.MapsDemo'
 dependencies {
     compile 'com.gluonhq:charm:3.0.0'
     
-    // TK
-    compile files('/Users/thomas/Entwicklung/Bitbucket/gluon-maps/build/libs/maps-1.0.1-SNAPSHOT.jar')
+    compile 'com.gluonhq:maps:1.0.0'
 
     androidRuntime 'com.gluonhq:charm-android:3.0.0'
     iosRuntime 'com.gluonhq:charm-ios:3.0.0'
