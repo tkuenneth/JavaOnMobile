@@ -1,0 +1,27 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'org.javafxports:jfxmobile-plugin:1.0.8'
+    }
+}
+
+apply plugin: 'org.javafxports.jfxmobile'
+
+repositories {
+    jcenter()
+    maven {
+        url 'http://nexus.gluonhq.com/nexus/content/repositories/releases'
+    }
+}
+
+mainClassName = 'com.thomaskuenneth.gluon.webcamdemo.WebcamDemo'
+
+dependencies {
+    compile 'com.gluonhq:charm:3.0.0'
+    compile 'com.github.sarxos:webcam-capture:0.3.10'
+
+    desktopRuntime 'com.gluonhq:charm-desktop:3.0.0'
+}
+
