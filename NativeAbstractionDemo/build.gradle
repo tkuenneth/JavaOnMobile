@@ -30,6 +30,7 @@ jfxmobile {
     
     android {
         manifest = 'src/android/AndroidManifest.xml'
+        compileSdkVersion = 23
     }
     ios {
         infoPList = file('src/ios/Default-Info.plist')
