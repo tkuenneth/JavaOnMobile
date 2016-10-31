@@ -1,9 +1,8 @@
 package com.thomaskuenneth.gluon.positionservicedemo;
 
-import com.gluonhq.charm.down.common.Platform;
-import com.gluonhq.charm.down.common.PlatformFactory;
-import com.gluonhq.charm.down.common.Position;
-import com.gluonhq.charm.down.common.PositionService;
+import com.gluonhq.charm.down.Services;
+import com.gluonhq.charm.down.plugins.Position;
+import com.gluonhq.charm.down.plugins.PositionService;
 import com.gluonhq.charm.glisten.control.AppBar;
 import com.gluonhq.charm.glisten.mvc.View;
 import com.gluonhq.charm.glisten.visual.MaterialDesignIcon;
@@ -25,14 +24,12 @@ public class BasicView extends View {
         VBox controls = new VBox(15.0, label);
         controls.setAlignment(Pos.CENTER);
         setCenter(controls);
-        // get current position
-        Platform p = PlatformFactory.getPlatform();
-        PositionService ps = p.getPositionService();
-        outputPos(ps.getPosition());
-        ps.positionProperty().addListener((obs, oldPos, newPos) -> {
-            LOGGER.log(Level.INFO, "\nobs: {0}\noldPos: {1}\nnewPos: {2}",
-                    new Object[]{obs, oldPos, newPos});
-            outputPos(newPos);
+        Services.get(PositionService.class).ifPresent(serivce -> {
+            serivce.positionProperty().addListener((obs, oldPos, newPos) -> {
+                LOGGER.log(Level.INFO, "\nobs: {0}\noldPos: {1}\nnewPos: {2}",
+                        new Object[]{obs, oldPos, newPos});
+                outputPos(newPos);
+            });
         });
     }
 

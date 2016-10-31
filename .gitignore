@@ -15,3 +15,5 @@ private/
 .gradletasknamecache
 
 .DS_Store
+
+GluonApplication*/
