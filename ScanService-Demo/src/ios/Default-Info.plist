@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
+    <dict>
         <key>CFBundleIdentifier</key>
         <string>com.thomaskuenneth.scanservicedemo.ScanserviceDemo</string>
         <key>CFBundleVersion</key>
@@ -10,16 +10,16 @@
         <string>Scanservice-Demo</string>
         <key>CFBundleIconFiles</key>
         <array>
-                <string>Icon-60</string>
-                <string>Icon-76</string>
-                <string>Icon-Small-40</string>
-                <string>Icon-Small</string>
+            <string>Icon-60</string>
+            <string>Icon-76</string>
+            <string>Icon-Small-40</string>
+            <string>Icon-Small</string>
         </array>
         <key>CFBundleIconFiles~ipad</key>
         <array>
-                <string>Icon-76</string>
-                <string>Icon-Small-40</string>
-                <string>Icon-Small</string>
+            <string>Icon-76</string>
+            <string>Icon-Small-40</string>
+            <string>Icon-Small</string>
         </array>
         <key>CFBundleName</key>
         <string>Scanservice-Demo</string>
@@ -29,26 +29,28 @@
         <true/>
         <key>UISupportedInterfaceOrientations</key>
         <array>
-                <string>UIInterfaceOrientationPortrait</string>
-                <string>UIInterfaceOrientationLandscapeLeft</string>
-                <string>UIInterfaceOrientationLandscapeRight</string>
-                <string>UIInterfaceOrientationPortraitUpsideDown</string>
+            <string>UIInterfaceOrientationPortrait</string>
+            <string>UIInterfaceOrientationLandscapeLeft</string>
+            <string>UIInterfaceOrientationLandscapeRight</string>
+            <string>UIInterfaceOrientationPortraitUpsideDown</string>
         </array>
         <key>UISupportedInterfaceOrientations~ipad</key>
         <array>
-                <string>UIInterfaceOrientationPortrait</string>
-                <string>UIInterfaceOrientationLandscapeLeft</string>
-                <string>UIInterfaceOrientationLandscapeRight</string>
-                <string>UIInterfaceOrientationPortraitUpsideDown</string>
+            <string>UIInterfaceOrientationPortrait</string>
+            <string>UIInterfaceOrientationLandscapeLeft</string>
+            <string>UIInterfaceOrientationLandscapeRight</string>
+            <string>UIInterfaceOrientationPortraitUpsideDown</string>
         </array>
         <key>UIRequiredDeviceCapabilities</key>
         <array>
-                <string>armv7</string>
+            <string>armv7</string>
         </array>
         <key>UIDeviceFamily</key>
         <array>
-                <integer>1</integer>
-                <integer>2</integer>
+            <integer>1</integer>
+            <integer>2</integer>
         </array>
-</dict>
+        <key>NSCameraUsageDescription</key>
+        <string>Reason to use Camera Service (iOS 10+)</string>
+    </dict>
 </plist>

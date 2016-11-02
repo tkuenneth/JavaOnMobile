@@ -32,14 +32,13 @@
             
         </activity>
         
-        <activity android:name="com.gluonhq.charm.down.android.scan.zxing.CaptureActivity"
-            android:screenOrientation="sensorLandscape"
-            android:clearTaskOnLaunch="true"
-            android:stateNotNeeded="true"
-            android:windowSoftInputMode="stateAlwaysHidden">
-            
+        <activity android:name="com.gluonhq.impl.charm.down.plugins.android.scan.zxing.CaptureActivity"
+                  android:screenOrientation="sensorLandscape"
+                  android:clearTaskOnLaunch="true"
+                  android:stateNotNeeded="true"
+                  android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
-                <action android:name="com.gluonhq.charm.down.android.scan.SCAN"/>
+                <action android:name="com.gluonhq.charm.down.plugins.android.scan.SCAN"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>

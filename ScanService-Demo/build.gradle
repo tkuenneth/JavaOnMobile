@@ -3,7 +3,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'org.javafxports:jfxmobile-plugin:1.0.8'
+        classpath 'org.javafxports:jfxmobile-plugin:1.1.1'
     }
 }
 
@@ -19,26 +19,18 @@ repositories {
 mainClassName = 'com.thomaskuenneth.scanservicedemo.ScanserviceDemo'
 
 dependencies {
-    compile 'com.gluonhq:charm:3.0.0'
-
-    androidRuntime 'com.gluonhq:charm-android:3.0.0'
-    androidRuntime 'com.google.zxing:core:3.2.1'
-
-    iosRuntime 'com.gluonhq:charm-ios:3.0.0'
-
-    desktopRuntime 'com.gluonhq:charm-desktop:3.0.0'
+    compile 'com.gluonhq:charm:4.0.1'
 }
 
 jfxmobile {
-
-    apply plugin: 'idea'
-    idea.module.downloadJavadoc = true
-
+    downConfig {
+        version '3.0.0'
+        plugins 'display', 'lifecycle', 'statusbar', 'storage', 'barcode-scan'
+    }    
     android {
         manifest = 'src/android/AndroidManifest.xml'
-
         androidSdk = '/Users/thomas/Library/Android/sdk'
-        compileSdkVersion = 23
+        compileSdkVersion = 24
     }
     ios {
         infoPList = file('src/ios/Default-Info.plist')
