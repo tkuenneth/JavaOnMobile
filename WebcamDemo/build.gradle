@@ -3,7 +3,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'org.javafxports:jfxmobile-plugin:1.0.8'
+        classpath 'org.javafxports:jfxmobile-plugin:1.1.1'
     }
 }
 
@@ -19,9 +19,14 @@ repositories {
 mainClassName = 'com.thomaskuenneth.gluon.webcamdemo.WebcamDemo'
 
 dependencies {
-    compile 'com.gluonhq:charm:3.0.0'
+    compile 'com.gluonhq:charm:4.0.1'
     compile 'com.github.sarxos:webcam-capture:0.3.10'
+}
 
-    desktopRuntime 'com.gluonhq:charm-desktop:3.0.0'
+jfxmobile {
+    downConfig {
+        version = '3.0.0'
+        plugins 'display', 'lifecycle', 'statusbar', 'storage'
+    }
 }
 

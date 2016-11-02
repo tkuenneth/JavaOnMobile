@@ -3,7 +3,8 @@ package com.thomaskuenneth.gluon.webcamdemo;
 import com.github.sarxos.webcam.Webcam;
 import com.github.sarxos.webcam.WebcamEvent;
 import com.github.sarxos.webcam.WebcamListener;
-import com.gluonhq.charm.down.common.PlatformFactory;
+import com.gluonhq.charm.down.Services;
+import com.gluonhq.charm.down.plugins.StorageService;
 import com.gluonhq.charm.glisten.control.AppBar;
 import com.gluonhq.charm.glisten.layout.layer.FloatingActionButton;
 import com.gluonhq.charm.glisten.mvc.View;
@@ -12,6 +13,7 @@ import java.awt.Dimension;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.concurrent.CountDownLatch;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javafx.application.Platform;
@@ -29,8 +31,7 @@ public class WebcamView extends View {
     public static final int CAM_H = 480;
 
     private final ImageView iv;
-
-    private boolean loop;
+    private final CountDownLatch lock = new CountDownLatch(1);
 
     private final WebcamListener l = new WebcamListener() {
 
@@ -61,7 +62,7 @@ public class WebcamView extends View {
     };
 
     public void stop() {
-        loop = false;
+        lock.countDown();
     }
 
     public WebcamView(String name) {
@@ -73,14 +74,16 @@ public class WebcamView extends View {
         setCenter(sp);
         getLayers().add(new FloatingActionButton(MaterialDesignIcon.CAMERA.text,
                 e -> {
-                    try {
-                        File basedir = PlatformFactory.getPlatform().getPrivateStorage();
-                        File file = File.createTempFile("webcam_", ".png", basedir);
-                        ImageIO.write(SwingFXUtils.fromFXImage(iv.getImage(), null), "png", file);
-                    } catch (IOException s) {
-                        LOGGER.log(Level.SEVERE, "ImageIO.write()", s);
-                    }
-                }));
+                    Services.get(StorageService.class).ifPresent((service) -> {
+                        try {
+                            File basedir = service.getPrivateStorage().get();
+                            File file = File.createTempFile("webcam_", ".png", basedir);
+                            ImageIO.write(SwingFXUtils.fromFXImage(iv.getImage(), null), "png", file);
+                        } catch (IOException s) {
+                            LOGGER.log(Level.SEVERE, "ImageIO.write()", s);
+                        }
+                    });
+                }).getLayer());
         openWebcam();
     }
 
@@ -96,15 +99,16 @@ public class WebcamView extends View {
         new Thread(() -> {
             Webcam webcam = Webcam.getDefault();
             if (webcam != null) {
-                webcam.setViewSize(new Dimension(CAM_W, CAM_H));
-                webcam.addWebcamListener(l);
-                webcam.open(true);
-                loop = true;
-                while (loop) {
-                    Thread.yield();
+                try {
+                    webcam.setViewSize(new Dimension(CAM_W, CAM_H));
+                    webcam.addWebcamListener(l);
+                    webcam.open(true);
+                    lock.await();
+                } catch (InterruptedException ex) {
+                    LOGGER.log(Level.SEVERE, null, ex);
                 }
-                webcam.close();
                 webcam.removeWebcamListener(l);
+                webcam.close();
             }
         }).start();
     }
