@@ -5,7 +5,6 @@ import com.gluonhq.maps.MapPoint;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.geometry.Bounds;
 import javafx.geometry.Point2D;
 import javafx.scene.Node;
 import javafx.scene.image.Image;
@@ -14,9 +13,10 @@ import javafx.util.Pair;
 
 public class FootStepsLayer extends MapLayer {
 
+    private static final int SIZE = 32;
     private static final Image FOOTSTEPS
             = new Image(FootStepsLayer.class.getResourceAsStream("/footsteps.png"),
-                    32, 32, true, true);
+                    SIZE, SIZE, true, true);
 
     private final ObservableList<Pair<MapPoint, Node>> points
             = FXCollections.observableArrayList();
@@ -30,12 +30,8 @@ public class FootStepsLayer extends MapLayer {
     }
 
     public void addPoint(double x, double y) {
-        System.out.println(x + ", " + y);
-        Bounds bounds = baseMap.getParent().getLayoutBounds();
-        baseMap.moveX(x - bounds.getWidth() / 2);
-        baseMap.moveY(y - bounds.getHeight() / 2);
-        addPoint(new MapPoint(baseMap.centerLat().get(),
-                baseMap.centerLon().get()));
+        MapPoint p = baseMap.getMapPosition(x, y);
+        addPoint(p);
     }
 
     @Override
@@ -46,8 +42,8 @@ public class FootStepsLayer extends MapLayer {
             Node node = element.getValue();
             Point2D point = baseMap.getMapPoint(mapPoint.getLatitude(), mapPoint.getLongitude());
             node.setVisible(true);
-            node.setTranslateX(point.getX());
-            node.setTranslateY(point.getY());
+            node.setTranslateX(point.getX() - SIZE / 2);
+            node.setTranslateY(point.getY() - SIZE / 2);
         }
     }
 }

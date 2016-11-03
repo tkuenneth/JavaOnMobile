@@ -29,7 +29,7 @@ jfxmobile {
     }
     android {
         manifest = 'src/android/AndroidManifest.xml'
-        androidSdk = "/Users/thomas/Library/Android/sdk"
+//        androidSdk = "/Users/thomas/Library/Android/sdk"
         compileSdkVersion = 24
     }
     ios {
