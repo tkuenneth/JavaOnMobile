@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="Hello" external.linked.project.path="$MODULE_DIR$/../../Hello" external.root.project.path="$MODULE_DIR$/../../Hello" external.system.id="GRADLE" external.system.module.group="" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../Hello/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../Hello/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../Hello">
+      <sourceFolder url="file://$MODULE_DIR$/../../Hello/src/main/java" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Hello/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Hello/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Hello/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: multi-os-engine:moe-core:1.4.2" level="project" />
+    <orderEntry type="library" name="Gradle: multi-os-engine:moe-ios:1.4.2" level="project" />
+    <orderEntry type="library" name="Gradle: multi-os-engine:java8support:1.4.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: multi-os-engine:moe-ios-junit:1.4.2" level="project" />
+  </component>
+</module>
