@@ -2,7 +2,7 @@
 //  MyViewController.m
 //  Hello
 //
-//  Created by Thomas Künneth on 05.01.19.
+//  Created by Thomas Künneth on 06.02.19.
 //  Copyright © 2019 Thomas Kuenneth. All rights reserved.
 //
 
@@ -29,6 +29,4 @@
 }
 */
 
-- (IBAction)button:(UIButton *)sender {
-}
 @end

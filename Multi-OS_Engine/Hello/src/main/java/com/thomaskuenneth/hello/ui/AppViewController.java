@@ -1,4 +1,4 @@
-package com.thomaskuenneth.ui;
+package com.thomaskuenneth.hello.ui;
 
 import org.moe.natj.general.Pointer;
 import org.moe.natj.general.ann.Owned;

@@ -2,7 +2,7 @@
 //  MyViewController.h
 //  Hello
 //
-//  Created by Thomas Künneth on 05.01.19.
+//  Created by Thomas Künneth on 06.02.19.
 //  Copyright © 2019 Thomas Kuenneth. All rights reserved.
 //
 
@@ -11,8 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MyViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *button;
 @property (weak, nonatomic) IBOutlet UILabel *label;
-- (IBAction)button:(UIButton *)sender;
 
 @end
 

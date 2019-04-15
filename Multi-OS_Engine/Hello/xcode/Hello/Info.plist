@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>MOE.Main.Class</key>
-	<string>com.thomaskuenneth.Main</string>
+	<string>com.thomaskuenneth.hello.Main</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

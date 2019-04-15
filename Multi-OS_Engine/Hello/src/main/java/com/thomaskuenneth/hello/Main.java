@@ -1,4 +1,4 @@
-package com.thomaskuenneth;
+package com.thomaskuenneth.hello;
 
 import apple.NSObject;
 import apple.foundation.NSDictionary;

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: multi-os-engine:java8support:1.4.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.moe/moe-sdk-1.4.2/tools/java8support.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

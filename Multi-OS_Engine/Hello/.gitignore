@@ -4,7 +4,6 @@
 # Build folders
 build
 target
-out
 
 # Eclipse project files
 bin

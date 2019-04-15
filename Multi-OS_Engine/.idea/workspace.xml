@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75765c73-a2af-4b83-8e3a-4933effc9bf4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__multi_os_engine_java8support_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__multi_os_engine_moe_core_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__multi_os_engine_moe_ios_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__multi_os_engine_moe_ios_junit_1_4_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello/out/production/classes/com/thomaskuenneth/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello/out/production/classes/com/thomaskuenneth/ui/AppViewController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello/src/main/java/com/thomaskuenneth/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello/src/main/java/com/thomaskuenneth/ui/AppViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello/src/main/java/com/thomaskuenneth/ui/MyViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello/xcode/Hello.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/xcode/Hello.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello/xcode/Hello.xcodeproj/project.xcworkspace/xcuserdata/thomas.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/xcode/Hello.xcodeproj/project.xcworkspace/xcuserdata/thomas.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello/xcode/Hello/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/xcode/Hello/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello/xcode/Hello/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/xcode/Hello/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello/xcode/Hello/MyViewController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/xcode/Hello/MyViewController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello/xcode/Hello/MyViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/xcode/Hello/MyViewController.m" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/Hello/.gradle/" />
+    <ignored path="$PROJECT_DIR$/Hello/build/" />
+    <ignored path="$PROJECT_DIR$/Hello/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Hello">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="33" />
+    <option name="y" value="30" />
+    <option name="width" value="1680" />
+    <option name="height" value="947" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hello" type="org.moe.idea.runconfig.configuration.MOERunConfigurationType" factoryName="Multi-OS Engine iOS Application">
+      <option name="moduleName" value="Hello" />
+      <option name="architecture" value="i386" />
+      <option name="configuration" value="Debug" />
+      <option name="deviceUdid" value="" />
+      <option name="debugPort" value="8000" />
+      <option name="debugRemotePort" value="8000" />
+      <option name="remoteBuildEnabled" value="false" />
+      <option name="remotePort" value="0" />
+      <option name="remoteKeychainLocktimeout" value="0" />
+      <option name="remoteHost" value="" />
+      <option name="remoteUser" value="" />
+      <option name="remoteKnownhosts" value="" />
+      <option name="remoteIdentity" value="" />
+      <option name="remoteKeychainPass" value="" />
+      <option name="remoteKeychainName" value="" />
+      <option name="remoteGradleRepositories" value="" />
+      <option name="simulatorUdid" value="A044EFBF-7FD3-4E7E-A873-5AD2798F6D63" />
+      <option name="runOnSimulator" value="true" />
+      <option name="runJUnitTests" value="false" />
+      <option name="testType" value="0" />
+      <option name="testMethodName" value="" />
+      <option name="testClassName" value="" />
+      <option name="testPackageName" value="" />
+      <option name="vmArguments" value="" />
+      <option name="environmentVariables" value="" />
+      <option name="programArguments" value="" />
+      <option name="openDeploymentTargetDialog" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MOEGradle" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75765c73-a2af-4b83-8e3a-4933effc9bf4" name="Default Changelist" comment="" />
+      <created>1549454075989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549454075989</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="33" y="30" width="1680" height="947" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1898657" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32982457" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Multi-OS Engine" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32982457" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Flutter Performance" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32982457" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Flutter Inspector" order="5" />
+      <window_info anchor="right" id="Flutter Outline" order="6" />
+      <window_info anchor="right" id="Gradle" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="10" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Hello/src/main/java/com/thomaskuenneth/hello/Main.java" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hello</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
