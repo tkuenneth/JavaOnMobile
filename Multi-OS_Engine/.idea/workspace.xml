@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75765c73-a2af-4b83-8e3a-4933effc9bf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__multi_os_engine_java8support_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__multi_os_engine_moe_core_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__multi_os_engine_moe_ios_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__multi_os_engine_moe_ios_junit_1_4_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello/out/production/classes/com/thomaskuenneth/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello/out/production/classes/com/thomaskuenneth/ui/AppViewController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello/src/main/java/com/thomaskuenneth/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello/src/main/java/com/thomaskuenneth/ui/AppViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello/src/main/java/com/thomaskuenneth/ui/MyViewController.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hello/src/main/java/com/thomaskuenneth/hello/ui/MyViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hello/xcode/Hello.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/xcode/Hello.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hello/xcode/Hello.xcodeproj/project.xcworkspace/xcuserdata/thomas.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/xcode/Hello.xcodeproj/project.xcworkspace/xcuserdata/thomas.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello/xcode/Hello/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/xcode/Hello/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hello/xcode/Hello/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/xcode/Hello/Base.lproj/Main.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello/xcode/Hello/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/xcode/Hello/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello/xcode/Hello/MyViewController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/xcode/Hello/MyViewController.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello/xcode/Hello/MyViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/Hello/xcode/Hello/MyViewController.m" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Hello/.gradle/" />
@@ -33,16 +19,66 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/Hello">
       <ProjectState />
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hello/src/main/java/com/thomaskuenneth/hello/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hello/src/main/java/com/thomaskuenneth/hello/ui/AppViewController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Hello/src/main/java/com/thomaskuenneth/hello/ui/MyViewController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Hello/xcode/Hello.xcodeproj/project.pbxproj" />
+        <option value="$PROJECT_DIR$/Hello/src/main/java/com/thomaskuenneth/hello/ui/MyViewController.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="33" />
@@ -56,15 +92,120 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hello" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="xcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="xcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Hello.xcodeproj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="xcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Hello.xcodeproj" type="462c0819:PsiDirectoryNode" />
+              <item name="project.xcworkspace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="xcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Hello.xcodeproj" type="462c0819:PsiDirectoryNode" />
+              <item name="project.xcworkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="xcshareddata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="xcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Hello.xcodeproj" type="462c0819:PsiDirectoryNode" />
+              <item name="project.xcworkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="xcuserdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="xcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Hello.xcodeproj" type="462c0819:PsiDirectoryNode" />
+              <item name="project.xcworkspace" type="462c0819:PsiDirectoryNode" />
+              <item name="xcuserdata" type="462c0819:PsiDirectoryNode" />
+              <item name="thomas.xcuserdatad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="xcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Hello.xcodeproj" type="462c0819:PsiDirectoryNode" />
+              <item name="xcuserdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="xcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Hello.xcodeproj" type="462c0819:PsiDirectoryNode" />
+              <item name="xcuserdata" type="462c0819:PsiDirectoryNode" />
+              <item name="thomas.xcuserdatad" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -135,7 +276,7 @@
       <option name="remoteKeychainPass" value="" />
       <option name="remoteKeychainName" value="" />
       <option name="remoteGradleRepositories" value="" />
-      <option name="simulatorUdid" value="A044EFBF-7FD3-4E7E-A873-5AD2798F6D63" />
+      <option name="simulatorUdid" value="526CE360-6CB7-40BD-A57A-7FEFE426A8DA" />
       <option name="runOnSimulator" value="true" />
       <option name="runJUnitTests" value="false" />
       <option name="testType" value="0" />
@@ -167,8 +308,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="30" width="1680" height="947" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1898657" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1916972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -177,7 +319,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32982457" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32982457" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -203,7 +345,33 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Hello/src/main/java/com/thomaskuenneth/hello/Main.java" />
+    <entry file="file://$PROJECT_DIR$/Hello/xcode/Hello.xcodeproj/project.pbxproj">
+      <provider selected="true" editor-type-id="xcode.editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello/src/main/java/com/thomaskuenneth/hello/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello/src/main/java/com/thomaskuenneth/hello/ui/AppViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello/src/main/java/com/thomaskuenneth/hello/ui/MyViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -256,12 +424,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Hello</last-edited>
+          <last-edited>Hello|Hello</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
